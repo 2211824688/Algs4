@@ -43,6 +43,7 @@ public class Utils {
 
     /**
      * 1.1.24
+     * 欧几里得算法求最大公因数
      */
     public static int gcd(int a, int b) {
         if (b == 0) {

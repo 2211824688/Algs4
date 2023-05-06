@@ -10,6 +10,8 @@
       <sourceFolder url="file://$MODULE_DIR$/第1章/first/base" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/第1章/first/hard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/第1章/first/experiment" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/第1章/second/base" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/第1章/second/hard" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
