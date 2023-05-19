@@ -12,4 +12,8 @@ public class Main {
         return a + b;
     }
 
+    public static void main(String[] args) {
+
+    }
+
 }

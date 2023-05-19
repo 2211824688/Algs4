@@ -12,9 +12,16 @@
       <sourceFolder url="file://$MODULE_DIR$/第1章/first/experiment" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/第1章/second/base" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/第1章/second/hard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/第1章/third/base" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/第1章/third/linkedlist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/第1章/third/hard" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="algs4" level="project" />
+    <orderEntry type="library" name="junit-jupiter-api-5.9.2" level="project" />
+    <orderEntry type="library" name="junit-4.13.1" level="project" />
+    <orderEntry type="library" name="junit-4.12" level="project" />
+    <orderEntry type="library" name="hamcrest-core-1.3" level="project" />
   </component>
 </module>
