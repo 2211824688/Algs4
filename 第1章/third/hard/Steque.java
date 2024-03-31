@@ -24,6 +24,20 @@ public class Steque<Item> {
         return doubledList.isEmpty();
     }
 
+    /**
+     * 1.3.47
+     */
+    public static <Item> Steque<Item> Catenation(Steque<Item> s1, Steque<Item> s2) {
+        Steque<Item> steque = new Steque<>();
+        while (!s1.isEmpty()) {
+            steque.enqueue(s1.pop());
+        }
+        while (!s2.isEmpty()) {
+            steque.enqueue(s2.pop());
+        }
+        return steque;
+    }
+
     public static void main(String[] args) {
         Steque<String> stringSteque = new Steque<>();
         stringSteque.enqueue("abc");

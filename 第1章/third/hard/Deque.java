@@ -33,14 +33,4 @@ public class Deque<Item> {
         return doubledList.removeLast();
     }
 
-    public static void main(String[] args) {
-        Deque<Integer> deque = new Deque<>();
-        for (int i = 0; i < 10; i++) {
-            deque.pushLeft(i);
-            deque.pushRight(i);
-        }
-        while (deque.size() > 0) {
-            System.out.print(deque.popRight() + " ");
-        }
-    }
 }

@@ -46,6 +46,8 @@ public class Utils {
      * 欧几里得算法求最大公因数
      */
     public static int gcd(int a, int b) {
+        a = Math.abs(a);
+        b = Math.abs(b);
         if (b == 0) {
             return a;
         } else {

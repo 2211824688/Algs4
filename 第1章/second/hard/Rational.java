@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * 1.2.16
  */
@@ -51,8 +53,20 @@ public class Rational {
     }
 
     public static void main(String[] args) {
-        Rational a = new Rational(1, 2);
-        Rational b = new Rational(1, 2);
+        System.out.println("请输入第一个数的分子和分母:");
+        Scanner scanner = new Scanner(System.in);
+        int num1 = scanner.nextInt();
+        int num2 = scanner.nextInt();
+        Rational a = new Rational(num1, num2);
+        System.out.println("第一个数是: " + a);
+
+        System.out.println("请输入第二个数的分子和分母");
+        num1 = scanner.nextInt();
+        num2 = scanner.nextInt();
+        Rational b = new Rational(num1, num2);
+        System.out.println("第二个数是: " + b);
+
+        System.out.println("--------运算结果-------");
         System.out.println("plus: " + a.plus(b));
         System.out.println("minus: " + a.minus(b));
         System.out.println("times: " + a.times(b));
