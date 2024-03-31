@@ -8,6 +8,13 @@ public class Rational {
 
     public Rational(int numerator, int denominator) {
         assert (denominator != 0) : "denominator must not be zero";
+        if (numerator*denominator > 0) {
+            numerator = Math.abs(numerator);
+            denominator = Math.abs(denominator);
+        } else if (numerator*denominator < 0) {
+            numerator = -Math.abs(numerator);
+            denominator= Math.abs(denominator);
+        }
         int gcd = Utils.gcd(numerator, denominator);
         this.numerator = numerator/gcd;
         this.denominator = denominator/gcd;
